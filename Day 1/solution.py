@@ -30,5 +30,5 @@ def main (input):
                 total += int(converted_digits)
         return total
 
-with open('../input.txt', 'r') as input:
+with open('input.txt', 'r') as input:
         print(main(input))
